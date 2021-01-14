@@ -1,0 +1,14 @@
+<div (click)="divClick()">
+  <hello [name]="name" [test]="testHello" (eventEmitter)="eventHandler($event)"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+<p>{{emittedVal}}</p>
+
+<button (click)="btnClick()">
+  click me
+  </button>
+
+<p>observable val {{obsVal}}</p>
+</div>
+
